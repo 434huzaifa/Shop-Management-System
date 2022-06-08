@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/drawable-v24/button.xml" value="0.2385" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/drawable-v24/category_border.xml" value="0.194" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/drawable-v24/edit_text_box.xml" value="0.297" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/drawable/dialog_box.xml" value="0.1205" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/drawable/dialogue_box.xml" value="0.301" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/drawable/ic_add.xml" value="0.174" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/drawable/ic_search.xml" value="0.194" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/drawable/search_button.xml" value="0.194" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/drawable/shop_icon.xml" value="0.2925" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/drawable/splash_shape.xml" value="0.2925" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/activity_add_product.xml" value="0.21710526315789475" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/activity_edit_product.xml" value="0.21710526315789475" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/activity_employee.xml" value="0.16" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/activity_login.xml" value="0.21710526315789475" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/activity_main.xml" value="0.21710526315789475" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/activity_menu.xml" value="0.21710526315789475" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/activity_non_food.xml" value="0.10427631578947369" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/activity_registration.xml" value="0.21710526315789475" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/activity_search.xml" value="0.21710526315789475" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/activity_splashscreen.xml" value="0.21710526315789475" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/activity_stock_on_hand.xml" value="0.21710526315789475" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/cart_row.xml" value="0.21710526315789475" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/delete_box.xml" value="0.21498371335504887" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/employee_row.xml" value="0.25" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/error_box.xml" value="0.25" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/error_for_list.xml" value="0.21710526315789475" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/product_catagory_row.xml" value="0.21498371335504887" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/search_row.xml" value="0.33" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/sell_box.xml" value="0.21710526315789475" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/sell_product_cart.xml" value="0.25" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/sell_product_row.xml" value="0.5" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/sell_product_shop.xml" value="0.21498371335504887" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/layout/spinner_category.xml" value="0.21710526315789475" />
+        <entry key="..\:/ANDROMIDA/489Project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.174" />
+        <entry key="..\:/Users/Decoder/AndroidStudioProjects/ShopManagementSystem/app/src/main/res/drawable-v24/button.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/Decoder/AndroidStudioProjects/ShopManagementSystem/app/src/main/res/drawable-v24/edit_text_box.xml" value="0.15" />
+        <entry key="..\:/Users/Decoder/AndroidStudioProjects/ShopManagementSystem/app/src/main/res/drawable-v24/ic_shopping.xml" value="0.15" />
+        <entry key="..\:/Users/Decoder/AndroidStudioProjects/ShopManagementSystem/app/src/main/res/drawable-v24/product_background.xml" value="0.10925925925925926" />
+        <entry key="..\:/Users/Decoder/AndroidStudioProjects/ShopManagementSystem/app/src/main/res/drawable/black_button.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/Decoder/AndroidStudioProjects/ShopManagementSystem/app/src/main/res/layout/activity_add_product.xml" value="0.1778115501519757" />
+        <entry key="..\:/Users/Decoder/AndroidStudioProjects/ShopManagementSystem/app/src/main/res/layout/activity_login.xml" value="0.1778115501519757" />
+        <entry key="..\:/Users/Decoder/AndroidStudioProjects/ShopManagementSystem/app/src/main/res/layout/activity_main.xml" value="0.1778115501519757" />
+        <entry key="..\:/Users/Decoder/AndroidStudioProjects/ShopManagementSystem/app/src/main/res/layout/activity_menu.xml" value="0.1778115501519757" />
+        <entry key="..\:/Users/Decoder/AndroidStudioProjects/ShopManagementSystem/app/src/main/res/layout/activity_registration.xml" value="0.1778115501519757" />
+        <entry key="..\:/Users/Decoder/AndroidStudioProjects/ShopManagementSystem/app/src/main/res/layout/activity_sell_product.xml" value="0.2630208333333333" />
+        <entry key="..\:/Users/Decoder/AndroidStudioProjects/ShopManagementSystem/app/src/main/res/layout/activity_stock_on_hand.xml" value="0.2630208333333333" />
+        <entry key="..\:/Users/Decoder/AndroidStudioProjects/ShopManagementSystem/app/src/main/res/layout/edit_text_box.xml" value="0.1778115501519757" />
+        <entry key="..\:/Users/Decoder/AndroidStudioProjects/ShopManagementSystem/app/src/main/res/layout/product_catagory_row.xml" value="0.33" />
+        <entry key="..\:/Users/Decoder/AndroidStudioProjects/ShopManagementSystem/app/src/main/res/layout/sell_product_cart.xml" value="0.2" />
+        <entry key="..\:/Users/Decoder/AndroidStudioProjects/ShopManagementSystem/app/src/main/res/layout/sell_product_row.xml" value="0.2630208333333333" />
+        <entry key="..\:/Users/Decoder/AndroidStudioProjects/ShopManagementSystem/app/src/main/res/layout/sell_product_shop.xml" value="0.23157894736842105" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

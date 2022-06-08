@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_box"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvProductNameSellRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ExpDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvProductNameSellRow"
+            android:text="ExpDate: "
+            android:textColor="@color/teal_200"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvExpDateSellRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvProductNameSellRow"
+            android:layout_toEndOf="@+id/ExpDate"
+            android:text="22/22/22"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvProductNameSellRow"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/tvExpDateSellRow"
+            android:text="Category: "
+            android:textColor="@color/teal_200"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvCategorySellRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvProductNameSellRow"
+            android:layout_toEndOf="@+id/category"
+            android:text="Food"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/q"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ExpDate"
+            android:text="Q: "
+            android:textColor="@color/teal_200"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_below="@id/ExpDate"
+            android:id="@+id/tvQuantitySellRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/q"
+            android:text="48"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ExpDate"
+android:layout_alignStart="@id/category"
+            android:text="$ "
+            android:textColor="@color/teal_200"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPriceSellRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ExpDate"
+            android:layout_toEndOf="@+id/price"
+            android:text="12"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

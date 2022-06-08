@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="7dp"
+        android:background="@drawable/edit_text_box">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/nameEmpRow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text=" Riad Khan"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/sky00C5CB"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender :"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/sky00C5CB"/>
+            <TextView
+                android:id="@+id/genderEmpRow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Male"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/sky00C5CB"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Position :"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/sky00C5CB"/>
+            <TextView
+                android:id="@+id/positionEmpRow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Manager"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/sky00C5CB"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Joining Date :"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/sky00C5CB"/>
+            <TextView
+                android:id="@+id/joinDateEmpRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12 Jan 2022"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/sky00C5CB"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/black"/>
+</LinearLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M E N U"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="@color/sky00C5CB"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_shopping"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="15dp">
+            <TextView
+                android:id="@+id/btnStockOnHand"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stock On Hand"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:background="@drawable/button"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:id="@+id/btnAddProduct"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Add Product"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button"
+                android:layout_marginEnd="15dp"/>
+            <TextView
+                android:id="@+id/btnMenuSearch"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Search"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="15dp">
+            <TextView
+                android:id="@+id/btnSellProduct"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sell Product"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:background="@drawable/button"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginBottom="15dp">
+            <TextView
+                android:id="@+id/btnEmployee"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Employee"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/button"/>
+            <TextView
+                android:onClick="logout"
+                android:layout_marginStart="10dp"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:background="@drawable/button"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:id="@+id/btnExitMenu"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exit"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:background="@drawable/button"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Shop Management System</string>
+
+    <string-array name="Category">
+        <item>Food</item>
+        <item>Non Food</item>
+    </string-array>
+</resources>

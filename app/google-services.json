@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "505150704323",
+    "project_id": "shopmanager-904f9",
+    "storage_bucket": "shopmanager-904f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505150704323:android:028d5b4bc92eea0a99b076",
+        "android_client_info": {
+          "package_name": "ewu.cse.shopmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505150704323-d5tnau9nc370i0u6gilna4fs36sa2d50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM71nMoSB4pudWBu8o4IyCZJwGgNYpN3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505150704323-d5tnau9nc370i0u6gilna4fs36sa2d50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
